@@ -1,0 +1,49 @@
+TeddyCloud Desktop
+Copyright (C) 2026 Bennsel
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version. See LICENSE.
+
+Third-party components and attributions
+=======================================
+
+teddycloud_web
+  https://github.com/toniebox-reverse-engineering/teddycloud_web
+  The user interface and API flows of this application are modelled on the
+  TeddyCloud web UI. src/teddycloud_desktop/languages.py is generated from
+  languageOptions in src/components/common/icons/LanguageFlagIcon.tsx, and
+  BOX_SETTING_PREFIXES in src/teddycloud_desktop/toniebox_dialogs.py is copied
+  from src/components/tonieboxes/tonieboxcard/settings/Settings.tsx of
+  teddycloud_web.
+  License: the teddycloud_web repository (branches master and develop, checked
+  November 2026) contains no LICENSE file, no license field in package.json and
+  no copyright line; GitHub reports no license.
+  Copyright: the toniebox-reverse-engineering contributors.
+
+PyQt6 (Riverbank Computing Limited)
+  https://www.riverbankcomputing.com/software/pyqt/
+  License: GPL-3.0-only (or Riverbank commercial license).
+
+Qt 6 (The Qt Company Ltd. and contributors), bundled in the PyQt6-Qt6 wheels
+  https://www.qt.io/
+  License: LGPL-3.0 (as used here).
+
+FFmpeg (the FFmpeg developers), bundled with Qt Multimedia in the PyQt6-Qt6 wheels
+  https://ffmpeg.org/
+  License: LGPL-2.1-or-later (as built for Qt Multimedia).
+
+mutagen
+  https://github.com/quodlibet/mutagen
+  License: GPL-2.0-or-later.
+
+keyring (Jason R. Coombs and contributors)
+  https://github.com/jaraco/keyring
+  License: MIT.
+
+Trademarks
+==========
+
+This project is not affiliated with, endorsed by, or reviewed by tonies GmbH
+(formerly Boxine GmbH). "Toniebox" and "Tonie" are trademarks of tonies GmbH.
